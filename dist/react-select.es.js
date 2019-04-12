@@ -2788,9 +2788,6 @@ var Select = function (_Component) {
 
 
       return React.createElement(Input$$1, _extends({
-        autoCapitalize: 'none',
-        autoComplete: 'off',
-        autoCorrect: 'off',
         cx: cx,
         getStyles: this.getStyles,
         id: id,

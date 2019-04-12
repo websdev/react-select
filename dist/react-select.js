@@ -633,7 +633,7 @@
 
 	ScrollCaptorSwitch.defaultProps = { isEnabled: true };
 
-	var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+	var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
 	function createCommonjsModule(fn, module) {
 		return module = { exports: {} }, fn(module, module.exports), module.exports;
@@ -2913,9 +2913,6 @@
 
 
 	      return React__default.createElement(Input$$1, _extends({
-	        autoCapitalize: 'none',
-	        autoComplete: 'off',
-	        autoCorrect: 'off',
 	        cx: cx,
 	        getStyles: this.getStyles,
 	        id: id,
