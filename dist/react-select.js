@@ -2922,7 +2922,6 @@
 	        onBlur: this.onInputBlur,
 	        onChange: this.handleInputChange,
 	        onFocus: this.onInputFocus,
-	        spellCheck: 'false',
 	        tabIndex: tabIndex,
 	        type: 'text',
 	        value: inputValue
